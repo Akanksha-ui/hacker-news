@@ -1,0 +1,34 @@
+.story_tile {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.story_tile .story_title {
+  margin-bottom: 4px;
+}
+.story_title a:link,
+a:visited {
+  font-size: 18px;
+  color: #e17055;
+}
+.story_title a:hover,
+a:active {
+  text-decoration: none;
+}
+.story_info {
+  color: #585656;
+}
+.story_info span {
+  margin: 4px;
+}
+.story_info span a {
+  color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+  .story_tile {
+    width: 90%;
+  }
+}

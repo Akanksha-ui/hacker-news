@@ -1,0 +1,14 @@
+.footer_container {
+  background: #ff6600;
+  color: #333;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 10px;
+  font-size: 16px;
+}
+.footer a {
+  color: #141313 !important;
+  text-decoration: none;
+}
